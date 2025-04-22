@@ -1,0 +1,34 @@
+[2025-04-22 02:19:44] [/workspaces/cs190_LAB2] source .devcontainer/shell.sh
+[2025-04-22 02:27:20] [/workspaces/cs190_LAB2] ln -s compile.sh /project/programs/tools/compile.sh
+[2025-04-22 02:27:28] [/workspaces/cs190_LAB2] ln -s compile.sh /project/programs/tools/
+[2025-04-22 02:27:37] [/workspaces/cs190_LAB2] ln -s compile.sh project/programs/tools/compile.sh
+[2025-04-22 02:28:30] [/workspaces/cs190_LAB2] ln moosay.sh project/programs/fun/moosay.sh
+[2025-04-22 02:28:57] [/workspaces/cs190_LAB2] mv compile.sh project/programs/
+[2025-04-22 02:29:10] [/workspaces/cs190_LAB2] mv moosay.sh project/programs/
+[2025-04-22 02:31:35] [/workspaces/cs190_LAB2/project/programs/fun] cd project/programs/fun
+[2025-04-22 02:31:39] [/workspaces/cs190_LAB2/project/programs/fun] moosay.sh
+[2025-04-22 02:32:01] [/workspaces/cs190_LAB2/project/programs/fun] ./moosay.sh
+[2025-04-22 02:32:19] [/workspaces/cs190_LAB2/project/programs] cd .. 
+[2025-04-22 02:32:24] [/workspaces/cs190_LAB2/project/programs/tools] cd tools
+[2025-04-22 02:32:31] [/workspaces/cs190_LAB2/project/programs/tools] ./compile.sh
+[2025-04-22 02:39:18] [/workspaces/cs190_LAB2/project/programs/tools] cd ...
+[2025-04-22 02:39:49] [/home/codespace] cd ~
+[2025-04-22 02:39:52] [/home/codespace] cd ~
+[2025-04-22 02:40:15] [/home/codespace] cd cs190_LAB2/project/programs/tools
+[2025-04-22 02:40:32] [/home/codespace] cd cs190_LAB2
+[2025-04-22 02:40:39] [/home] cd ..
+[2025-04-22 02:40:44] [/home] ls
+[2025-04-22 02:40:49] [/home/codespace] cd codespace
+[2025-04-22 02:40:51] [/home/codespace] ls
+[2025-04-22 02:40:55] [/home/codespace/java] cd java
+[2025-04-22 02:40:57] [/home/codespace/java] ls
+[2025-04-22 02:41:12] [/home/codespace/java/current] cd current
+[2025-04-22 02:41:14] [/home/codespace/java/current] ls
+[2025-04-22 02:41:24] [/home/codespace/java/current] cd ...
+[2025-04-22 02:41:34] [/home/codespace/java] cd ..
+[2025-04-22 02:41:36] [/home/codespace] cd ..
+[2025-04-22 02:41:39] [/home/codespace/nvm] cd nvm
+[2025-04-22 02:41:41] [/home/codespace/nvm] ls
+[2025-04-22 02:42:04] [/home/codespace/nvm] cd Dockerfile
+[2025-04-22 02:42:18] [/home/codespace/nvm/test] cd test
+[2025-04-22 02:42:19] [/home/codespace/nvm/test] ls

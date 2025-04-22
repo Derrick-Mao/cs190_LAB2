@@ -1,0 +1,29 @@
+[2025-04-22 02:57:04] [/workspaces/cs190_LAB2] source .devcontainer/shell.sh
+[2025-04-22 03:10:42] [/workspaces/cs190_LAB2/project] cd project
+[2025-04-22 03:11:15] [/workspaces/cs190_LAB2/project] zip -r archive.zip documents pictures programs
+[2025-04-22 03:11:48] [/workspaces/cs190_LAB2] cd ..
+[2025-04-22 03:12:09] [/workspaces/cs190_LAB2] mv archive.zip project/archives/
+[2025-04-22 03:12:34] [/workspaces/cs190_LAB2/project] cd project
+[2025-04-22 03:12:43] [/workspaces/cs190_LAB2/project] mv archive.zip archives/
+[2025-04-22 03:15:27] [/workspaces/cs190_LAB2/project] man mktemp
+[2025-04-22 03:16:28] [/workspaces/cs190_LAB2/project] mktemp -d tempd1
+[2025-04-22 03:16:34] [/workspaces/cs190_LAB2/project] mktemp -d XXXXXXtempd1
+[2025-04-22 03:16:53] [/workspaces/cs190_LAB2/project] mktemp -d XXXXXXtempd2
+[2025-04-22 03:17:03] [/workspaces/cs190_LAB2/project] mktemp -p tempd3
+[2025-04-22 03:17:25] [/workspaces/cs190_LAB2/project] mktemp -p XXXXXXtempd3
+[2025-04-22 03:17:38] [/workspaces/cs190_LAB2/project] mkdtemp -d XXXXXXtempd3
+[2025-04-22 03:17:44] [/workspaces/cs190_LAB2/project] mktemp -d XXXXXXtempd3
+[2025-04-22 03:18:04] [/workspaces/cs190_LAB2/project] mktemp -p 45lletempd1
+[2025-04-22 03:18:28] [/workspaces/cs190_LAB2/project] mktemp 45lletempd1/tmp1.txt
+[2025-04-22 03:18:44] [/workspaces/cs190_LAB2/project] cd 45lletempd1
+[2025-04-22 03:19:08] [/workspaces/cs190_LAB2/project/45lleRtempd1] cd 45lleRtempd1
+[2025-04-22 03:19:17] [/workspaces/cs190_LAB2/project/45lleRtempd1] mktemp tmp.txt
+[2025-04-22 03:19:25] [/workspaces/cs190_LAB2/project/45lleRtempd1] mktemp XXXXXXtmp1.txt
+[2025-04-22 03:19:45] [/workspaces/cs190_LAB2/project] cd ..
+[2025-04-22 03:26:56] [/workspaces/cs190_LAB2/project] rmdir */tmp
+[2025-04-22 03:27:19] [/workspaces/cs190_LAB2/project] rmdir lwEnd4tempd3
+[2025-04-22 03:27:28] [/workspaces/cs190_LAB2/project] rm lwEnd4tempd3
+[2025-04-22 03:29:28] [/workspaces/cs190_LAB2/project] man rmdir
+[2025-04-22 03:29:28] [/workspaces/cs190_LAB2/project] man rmdir
+[2025-04-22 03:29:35] [/workspaces/cs190_LAB2/project] rmdir *
+[2025-04-22 03:30:13] [/workspaces/cs190_LAB2/project] rm -r 45lleRtempd1

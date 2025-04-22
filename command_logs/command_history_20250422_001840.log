@@ -1,0 +1,32 @@
+[2025-04-22 00:18:40] [/workspaces/cs190_LAB2] source .devcontainer/shell.sh
+[2025-04-22 00:27:24] [/workspaces/cs190_LAB2] mkdir project
+[2025-04-22 00:27:50] [/workspaces/cs190_LAB2/project] cd project
+[2025-04-22 00:28:42] [/workspaces/cs190_LAB2/project] mkdir -p {archives, documents, pictures, programs}
+[2025-04-22 00:30:33] [/workspaces/cs190_LAB2/project] mkdir -p documents,/{frontend, backend}
+[2025-04-22 00:31:18] [/workspaces/cs190_LAB2/project] rm -r backend}
+[2025-04-22 00:31:34] [/workspaces/cs190_LAB2/project] rm -r documents,/{frontend
+[2025-04-22 00:31:41] [/workspaces/cs190_LAB2/project] rm -r documents,/{frontend,
+[2025-04-22 00:31:56] [/workspaces/cs190_LAB2/project] mkdir -p documents/{frontend,backend}
+[2025-04-22 00:32:10] [/workspaces/cs190_LAB2/project] rm -r documents,
+[2025-04-22 00:32:37] [/workspaces/cs190_LAB2/project] mkdir -p pictures,/{jan,feb,march}
+[2025-04-22 00:33:15] [/workspaces/cs190_LAB2/project] mv pictures, pictures
+[2025-04-22 00:33:30] [/workspaces/cs190_LAB2/project] mv {archives, archives
+[2025-04-22 00:33:42] [/workspaces/cs190_LAB2/project] mv programs} programs
+[2025-04-22 00:34:02] [/workspaces/cs190_LAB2/project] mkdir -p programs/{tools,fun}
+[2025-04-22 00:34:17] [/workspaces/cs190_LAB2/project] tree
+[2025-04-22 00:34:57] [/workspaces/cs190_LAB2/project] touch documents/frontend/design.txt
+[2025-04-22 00:35:09] [/workspaces/cs190_LAB2/project] touch documents/frontend/issues.txt
+[2025-04-22 00:35:53] [/workspaces/cs190_LAB2/project] touch documents/backend/api.txt
+[2025-04-22 00:36:03] [/workspaces/cs190_LAB2/project] touch documents/backend/issues.txt
+[2025-04-22 00:36:19] [/workspaces/cs190_LAB2/project] touch pictures/jan/locations.txt
+[2025-04-22 00:36:29] [/workspaces/cs190_LAB2/project] touch pictures/feb/locations.txt
+[2025-04-22 00:36:35] [/workspaces/cs190_LAB2/project] touch pictures/march/locations.txt
+[2025-04-22 00:37:55] [/workspaces/cs190_LAB2] cd ..
+[2025-04-22 00:37:59] [/workspaces/cs190_LAB2] ls -l
+[2025-04-22 00:39:19] [/workspaces/cs190_LAB2] find "picture1.jpg"
+[2025-04-22 00:39:44] [/workspaces/cs190_LAB2] find -name "picture1.jpg"
+[2025-04-22 00:39:53] [/workspaces/cs190_LAB2] find -name -l "picture1.jpg"
+[2025-04-22 00:41:20] [/workspaces/cs190_LAB2] mv -i picture3.jpg pictures/jan/
+[2025-04-22 00:42:06] [/workspaces/cs190_LAB2] mv -i picture3.jpg project/pictures/jan/
+[2025-04-22 00:42:24] [/workspaces/cs190_LAB2] mv -i picture1.jpg project/pictures/feb/
+[2025-04-22 00:43:39] [/workspaces/cs190_LAB2] mv -i picture2.jpg project/pictures/march/

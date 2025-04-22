@@ -50,7 +50,7 @@ project
 + Move compile.sh and moosay.sh to programs folder.
     + Not the linked versions but the original ones in the root of this repository.
 + Execute moosay.sh and compile.sh from the programs/tools and programs/fun directories
-    + Should they both still work?
+    + Should they both still work? ANSWER: soft link would not work after the original file is moved, bc it creates a reference to the file and the link breaks after it is moved. Whereas the hard link creates link to the underlying inode of the file.
 + Archive the documents, pictures, and programs folders and put the archives into the archives folder. You can use zip or tar to create the archive.
     + Shortcut: Use the find command to find all .zip or .tar files and use the -exec option to move them
 
